@@ -1,3 +1,8 @@
+body {
+	width: auto;
+	overflow: auto;
+}
+
 header {
 	background-color: gray;
 	height: 150px;
@@ -11,7 +16,7 @@ header {
 	width: 20%;
 	margin-right: 10px;
 }
-
+/*need to fix this floats position*/
 #col-mid {
 	background-color: gray;
 	height: 300px;
@@ -25,6 +30,7 @@ header {
 	height: 300px;
 	float: right;
 	width: 20%;
+	margin-left: 10px;
 }
 
 footer {
