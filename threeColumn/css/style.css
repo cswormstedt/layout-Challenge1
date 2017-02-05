@@ -1,5 +1,5 @@
 body {
-	width: auto;
+	max-width: auto;
 	overflow: auto;
 }
 
@@ -9,32 +9,50 @@ header {
 	margin-bottom: 10px;
 }
 
-#col-left {
-	background-color: gray;
-	height: 300px;
-	float: left;
-	width: 20%;
-	margin-right: 10px;
-}
-/*need to fix this floats position*/
-#col-mid {
-	background-color: gray;
-	height: 300px;
-	float: left;
-	width: 424px;
-    margin-bottom: 10px;
+.columns {
+	padding: 10px;
 }
 
-#col-right {
-	background-color: gray;
+div.columns, div {
+	float: left;
 	height: 300px;
-	float: right;
-	width: 20%;
+	width: auto;
+	margin-bottom: 10px
+}
+
+.col-left, .col-right {
+	position: relative;
+	width: 150px;
+}
+
+.col-left {
+	background-color: gray;
+	margin-right: 10px;
+	
+}
+
+.col-mid {
+	background-color: gray;
+	width: 64%;
+	
+}
+
+.col-right {
+	background-color: gray;
 	margin-left: 10px;
+	
 }
 
 footer {
 	background-color: gray;
 	height: 150px;
 	clear:both;
+}
+
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
 }
