@@ -1,0 +1,136 @@
+body {
+	width: auto;
+	overflow: auto;
+}
+
+header {
+	height: 150px;
+	margin-bottom: 10px;
+}
+
+.pagename {
+	background-color: gray;
+	height: 100px;
+	width: 200px;
+	/*float: left;*/
+}
+
+.nav {
+	float: right;
+	position: absolute;
+	right: 0;
+	top: 30px;
+}
+
+.link {
+	background-color: gray;
+	float: right;
+	height: 35px;
+	width: 130px;
+	margin: 4px;
+	display: inline;
+
+}
+
+aside {
+	background-color: gray;
+	width: 150px;
+	height: 611px;
+	float: left;
+	margin-bottom: 10px;
+	
+
+}
+
+article {
+	background-color: gray;
+	height: 150px;
+	position: absolute;
+    margin-left: 159px;
+	width: 100%;
+	float: right;
+}
+
+.section {
+	float: left;
+	margin: 10px;
+
+}
+
+#col-left {
+	background-color: gray;
+	height: 250px;
+	width: 54%;
+	left: 167px;
+    position: absolute;
+    top: 328px;
+
+}
+
+#col-right {
+	background-color: gray;
+	height: 250px;
+	width: 26%;
+	right: 6px;
+    position: absolute;
+    bottom: 148px;
+
+}
+
+.boxes {
+	width: auto;
+	clear: both;
+
+}
+
+#b1, #b2, #b3, #b4 {
+	background-color: gray;
+	position: relative;
+	height: 175px;
+	float: right;
+	right: 0px;
+    top: -195px;
+
+}
+
+#b1 {
+	width: 20%;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+#b2 {
+	width: 20%;
+	margin-top: 10px;
+	margin-left:10px;
+}
+
+#b3 {
+	width: 20%;
+	margin-top: 10px;
+	margin-left:10px;
+}
+
+#b4 {
+	width: 20%;
+	margin-top: 10px;
+	margin-left:10px;
+}
+
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+footer {
+	background-color: gray;
+	height: 150px;
+	width: auto;
+	margin-top: 10px;
+}
+
+
+
