@@ -29,3 +29,48 @@ for (var i = 0; i < menu.length; i++){
 		glutenFree.push(menu[i])
 	}
 }
+
+//bonus hard mode //NESTED LOOP loopception
+
+var league = 
+	[
+		{name: "NFL", 
+			players: [
+				{name: "Tom Brady", goat: false}, 
+				{name: "Walter Payton", goat: true}
+			]
+		}, 
+		{name: "NBA", 
+			players: [
+				{name: "Michael Jordan", goat: true}, 
+				{name: "Lebron James", goat: false}
+			]
+		},
+		{name: "MLB", 
+			players: [
+				{name: "Babe Ruth", goat: true}, 
+				{name: "Alex Rodriguez", goat: false}
+			]
+		}
+	];
+
+var goats = [];
+
+for (var i = 0; i < league.length; i++) {
+	for (var j = 0; j < league[i].players.length; j++)
+		if (league[i].players[j].goat){
+			goats.push(league[i].players[j].name)
+		}
+	}
+	
+
+
+// var players = [{name: "Babe Ruth", goat: true}, 
+// 				{name: "Alex Rodriguez", goat: false}
+// 		}]
+
+
+// for (var i = 0; i < players.length; i++)
+// 	if (players[i].goat){
+// 		console.log(players[i].name)
+// 	}
