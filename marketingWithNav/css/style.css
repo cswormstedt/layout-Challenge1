@@ -37,7 +37,7 @@ header {
 section {
 	background-color: gray;
 	height: 300px;
-	widows: auto;
+	width: auto;
 }
 
 .threebox {
