@@ -14,32 +14,30 @@ header {
 }
 
 div.columns, div {
-	float: left;
+	display: flex;
 	height: 300px;
-	width: auto;
-	margin-bottom: 10px
-}
-
-.col-left, .col-right {
-	position: relative;
-	width: 150px;
+	width: 100%;
+	padding: 0;
+	margin-bottom: 10px;
 }
 
 .col-left {
 	background-color: gray;
 	margin-right: 10px;
+	justify-content: left;
 	
 }
 
 .col-mid {
 	background-color: gray;
-	width: 64%;
+	flex-grow: 2;
 	
 }
 
 .col-right {
 	background-color: gray;
 	margin-left: 10px;
+	justify-content: right;
 	
 }
 

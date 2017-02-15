@@ -12,7 +12,11 @@ for (var i = 50; i >= 20; i--){
 
 //3
 
-var classmates = ["Bridjet", "Nathan", "Matias", "Mike", "Jason", "Reuben", "Ben", "Lane", "John", "Chris", "Terry", "Ann", "Katelyn", "Naomi", "Jeff"];
+var classmates = ["Bridjet", "Nathan", "Matias",
+				  "Mike", "Jason", "Reuben",
+				  "Ben", "Lane", "John",
+				  "Chris", "Terry", "Ann",
+				  "Katelyn", "Naomi", "Jeff"];
 
 for(var i = 0; i < classmates.length; i+=2){
 		console.log(classmates[i])
